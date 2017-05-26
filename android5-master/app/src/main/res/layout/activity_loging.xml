@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="100dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="72dp"
+                android:layout_height="44dp"
+                android:src="@mipmap/logging_user"/>
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="账号"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="98dp"
+                android:layout_weight="0.24"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="43dp"
+                android:src="@mipmap/logging_pwd"
+                />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="193dp"
+                android:layout_weight="0.23"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_land"
+            android:layout_width="175dp"
+            android:layout_height="46dp"
+            android:layout_weight="0.06"
+            android:gravity="center"
+            android:background="#40c4ff"
+            android:text="登录"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="291dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
