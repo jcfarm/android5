@@ -4,9 +4,17 @@
     android:layout_height="match_parent">
 
     <VideoView
+<<<<<<< HEAD
         android:id="@+id/videoView"
         android:layout_width="match_parent"
         android:layout_height="456dp" />
+=======
+        android:id="@+id/rtsp_player"
+        android:layout_width="match_parent"
+        android:layout_height="456dp"
+        android:layout_below="@+id/start_play"
+        />
+>>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
 
     <TextView
         android:id="@+id/textView11"
@@ -32,4 +40,81 @@
         android:text="实时控制"
         android:textSize="36sp" />
 
+<<<<<<< HEAD
+=======
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="= Stream Player ="
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textIsSelectable="false"
+        android:layout_alignParentBottom="false"
+        android:gravity="center_horizontal" />
+    //网络地址的输入
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/url"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="true"
+        android:text="rtsp://10.8.105.36:8554/video.mkv"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/url"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false">
+        //设置流播放按钮
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stream"
+            android:id="@+id/radioButtonStream"
+            android:layout_below="@+id/url"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false"
+            android:layout_alignBottom="@+id/start_play" />
+
+        //设置本地播放按钮
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:text="File"
+            android:id="@+id/radioButtonFile"
+            android:checked="false"
+            android:layout_alignBottom="@+id/radioButtonStream"
+            android:layout_toRightOf="@+id/radioButtonStream"
+            android:layout_below="@+id/url" />
+    </RadioGroup>
+    //播放按钮
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:id="@+id/start_play"
+        android:layout_below="@+id/url"
+        android:layout_alignRight="@+id/url"
+        android:layout_alignEnd="@+id/url"
+        android:layout_toRightOf="@+id/radioGroup1"
+        android:layout_toEndOf="@+id/radioGroup1" />
+
+
+
+
+>>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
 </LinearLayout>

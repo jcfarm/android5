@@ -22,11 +22,7 @@ public class ZhuMainActivity extends AppCompatActivity {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
                 Intent intent = new Intent(ZhuMainActivity.this,JianMainActivity.class);
-=======
-                Intent intent = new Intent(ZhuMainActivity.this,VideoViewDemo.class);
->>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
                 startActivity(intent);
             }
 
@@ -36,11 +32,7 @@ public class ZhuMainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
                 Intent intent = new Intent(ZhuMainActivity.this,JianMainActivity.class);
-=======
-                Intent intent = new Intent(ZhuMainActivity.this,VideoViewDemo.class);
->>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
                 startActivity(intent);
             }
         });
@@ -49,11 +41,7 @@ public class ZhuMainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
                 Intent intent = new Intent(ZhuMainActivity.this,JianMainActivity.class);
-=======
-                Intent intent = new Intent(ZhuMainActivity.this,VideoViewDemo.class);
->>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
                 startActivity(intent);
             }
         });

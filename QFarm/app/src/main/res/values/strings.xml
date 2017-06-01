@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">智慧农场</string>
+    <string name="tab_me_icon">我</string>
+    <string name="tab_func_icon">功能监测</string>
+    <string name="tab_realtime_icon">实时监测</string>
+    <string name="title_activity_lay1_main">Lay1MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

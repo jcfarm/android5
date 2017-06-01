@@ -1,5 +1,6 @@
 package com.example.kai.qfarm;
 
+<<<<<<< HEAD
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -44,10 +45,26 @@ public class ShujuMainActivity extends AppCompatActivity {
     private MqttConnectOptions options;
 
     private ScheduledExecutorService scheduler;
+=======
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ListView;
+
+public class ShujuMainActivity extends AppCompatActivity {
+
+
+    private ListView mListView;
+
+    private JavaAdapter mAdapter;
+
+    private Handler mHandler = new Handler();
+>>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_shuju_main);
 
         resultTv = (TextView) findViewById(R.id.temp);
@@ -204,3 +221,15 @@ public class ShujuMainActivity extends AppCompatActivity {
         }
     }
 }
+=======
+        setContentView(R.layout.json);
+
+        mListView = (ListView)findViewById(R.id.listView);
+        mAdapter= new JavaAdapter(this);
+        String url = "http://192.168.191.2:8080/Filed/fileddate.txt";
+
+
+        new HttpJson(url,mListView,mAdapter,mHandler).start();
+    }
+}
+>>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
