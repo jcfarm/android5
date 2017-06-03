@@ -75,10 +75,17 @@ public class JavaAdapter extends BaseAdapter {
         }
 
         Member member = mList.get(position);
+<<<<<<< Updated upstream
         holder.temp.setText(member.getTemp());
         holder.humidity.setText(member.getHumidity());
         holder.illumination.setText(member.getIllumination());
         holder.co2.setText(member.getCo2());
+=======
+        holder.temp.setText("temp:"+member.getTemp());
+        holder.humidity.setText("Humidity:"+member.getHumidity());
+        holder.illumination.setText("illumination"+member.getIllumination());
+        holder.co2.setText("co2"+member.getCo2());
+>>>>>>> Stashed changes
 
 
 

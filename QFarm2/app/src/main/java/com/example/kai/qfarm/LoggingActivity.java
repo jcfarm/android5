@@ -15,6 +15,15 @@ public class LoggingActivity extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loging);
 
+<<<<<<< Updated upstream
+=======
+
+        try {
+            Class.forName("Android.os.AsyncTask");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+>>>>>>> Stashed changes
         mButton_land = (Button)findViewById(R.id.button_land);
         mButton_land.setOnClickListener(this);
     }

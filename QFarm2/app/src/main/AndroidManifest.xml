@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kai.qfarm">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 =======
@@ -8,6 +9,9 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
 >>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
+=======
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+>>>>>>> Stashed changes
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +21,12 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".LoggingActivity"
+<<<<<<< Updated upstream
             android:screenOrientation="portrait">
+=======
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateUnchanged">
+>>>>>>> Stashed changes
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,10 +39,14 @@
         <activity android:name=".ShujuMainActivity" />
         <activity android:name=".KongMainActivity" />
         <activity android:name=".JianMainActivity"></activity>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
         <activity android:name=".VideoViewDemo"></activity>
 >>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
+=======
+
+>>>>>>> Stashed changes
     </application>
 
 </manifest>

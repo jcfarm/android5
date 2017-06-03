@@ -20,11 +20,15 @@ android {
 }
 
 dependencies {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+<<<<<<< Updated upstream
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:design:25.3.1'
@@ -40,4 +44,13 @@ dependencies {
     compile 'com.android.support:design:25.2.0'
     testCompile 'junit:junit:4.12'
 >>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
+=======
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    compile 'com.android.support:design:25.3.1'
+    testCompile 'junit:junit:4.12'
+    compile 'junit:junit:4.12'
+    compile 'com.squareup.okhttp3:okhttp:3.7.0'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+>>>>>>> Stashed changes
 }

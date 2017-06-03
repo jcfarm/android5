@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
 
     <VideoView
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         android:id="@+id/videoView"
         android:layout_width="match_parent"
@@ -15,6 +16,11 @@
         android:layout_below="@+id/start_play"
         />
 >>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
+=======
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="456dp" />
+>>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/textView11"
@@ -40,6 +46,7 @@
         android:text="实时控制"
         android:textSize="36sp" />
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 
@@ -117,4 +124,6 @@
 
 
 >>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
+=======
+>>>>>>> Stashed changes
 </LinearLayout>

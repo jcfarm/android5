@@ -1,5 +1,6 @@
 package com.example.kai.qfarm;
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 import android.os.Bundle;
 import android.os.Handler;
@@ -46,6 +47,8 @@ public class ShujuMainActivity extends AppCompatActivity {
 
     private ScheduledExecutorService scheduler;
 =======
+=======
+>>>>>>> Stashed changes
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -56,14 +59,21 @@ public class ShujuMainActivity extends AppCompatActivity {
 
     private ListView mListView;
 
+<<<<<<< Updated upstream
     private JavaAdapter mAdapter;
 
     private Handler mHandler = new Handler();
 >>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
+=======
+//    private JavaAdapter mAdapter;
+
+    private Handler mHandler = new Handler();
+>>>>>>> Stashed changes
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         setContentView(R.layout.activity_shuju_main);
 
@@ -233,3 +243,15 @@ public class ShujuMainActivity extends AppCompatActivity {
     }
 }
 >>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
+=======
+        setContentView(R.layout.activity_shuju_main);
+
+//        mListView = (ListView)findViewById(R.id.listView);
+//        mAdapter= new JavaAdapter(this);
+//        String url = "http://192.168.191.4:8090/FileUpload/fileddate.txt";
+//
+//
+//        new HttpJson(url,mListView,mAdapter,mHandler).start();
+    }
+}
+>>>>>>> Stashed changes

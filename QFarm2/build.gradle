@@ -5,11 +5,15 @@ buildscript {
         jcenter()
     }
     dependencies {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         classpath 'com.android.tools.build:gradle:2.3.2'
 =======
         classpath 'com.android.tools.build:gradle:2.3.0'
 >>>>>>> 5b8d0a22cb3c17885077596f3d5ca7343bba8b18
+=======
+        classpath 'com.android.tools.build:gradle:2.3.2'
+>>>>>>> Stashed changes
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
